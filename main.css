@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe5ec;
+}
+
+main {
+    margin: 4rem auto;  
+    width: 70vw;
+    border: solid hotpink;
+    border-radius: 10px;
+    background-color: #ffb3c6;
+}
+
+#input-container {
+    margin: 10px;
+    background-color: #ffb3c6;
+}
+
+input {
+    background-color:white;
+    border: solid hotpink;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+button {
+    background-color: #ffe5ec;
+    border: solid hotpink;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+p, #error-msg{
+    background-color: #ffb3c6;
+    color: rgb(128, 1, 65);
+    padding: 7px;
+}
+
+#result-container{
+    max-height: 70vh;
+    overflow: scroll;
+    background-color: #ffb3c6;
+    padding: 10px;
+}
+
+@media (min-width: 750px ) {
+    main {
+        max-width: 40vw;
+    }
+}
